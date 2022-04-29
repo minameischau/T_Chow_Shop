@@ -1,0 +1,32 @@
+.header-area .main-header .menu-wrapper {
+    height: 68px;
+}
+.header-area .main-header .menu-wrapper .main-menu ul li.hot::before{
+    border-radius: 20px;
+    font-size: 8px;
+    top: 30px;
+    right: 0px;
+}
+.header-right ul li {
+    display: inline-block;
+    position: relative;
+
+}
+.user-submenu{
+    position: absolute;
+    width: 170px;
+    background: #fff;
+    left: 0;
+    /* top: 90%; */
+    /* visibility: hidden; */
+    opacity: 0;
+    box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
+    padding: 17px 0;
+    border-top: 3px solid #ff2020;
+    border-radius: 7px 7px 3px 3px;
+}
+.header-right ul li:hover>ul.user-submenu.header-area .main-header .menu-wrapper .header-right span:hover {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}   
